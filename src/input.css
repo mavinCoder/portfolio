@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .animation-delay-200 {
+        animation-delay: 2s;
+    }
+    .animation-delay-400 {
+        animation-delay: 4s;
+    }
+    .animate-button {
+        font-size: 0px;
+        transition: 0.5s;
+    }
+    
+    .animate-button:hover {
+        font-size: 12px;
+        transition: 0.5s;
+    }
+}
